@@ -53,13 +53,5 @@ if __name__ == '__main__':
 
 
 
-if __name__ == '__main__':
-    print(translate_it('requestsDE.txt', "DE_RU.txt", 'de'))
-    print(translate_it('requestsES.txt', "ES_RU.txt", 'es'))
-    print(translate_it('requestsFR.txt', "FR_RU.txt", 'fr'))
-    send_to_disk("DE_RU.txt")
-    send_to_disk("ES_RU.txt")
-    send_to_disk("FR_RU.txt")
-
 
 
